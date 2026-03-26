@@ -29,7 +29,7 @@
 - [RLSAC] RLSAC: Reinforcement Learning Enhanced Sample Consensus for End-to-End Robust Estimation, ICCV'2023 [[code]](https://github.com/IRMVLab/RLSAC)
 - [U-Match] U-Match: Two-view Correspondence Learning with Hierarchy-aware Local Context Aggregation, IJCAI'2023 [[code]](https://github.com/ZizhuoLi/U-Match)
 - [ANANet] Learning Second-Order Attentive Context for Efficient Correspondence Pruning, AAAI'2023 [[code]](https://github.com/DIVE128/ANANet)
-- [MSA-Net] Local Consensus Enhanced Siamese Network with Reciprocal Loss for Two-view Correspondence Learning, ACMMM'2023 
+- [MSA-Net] Local Consensus Enhanced Siamese Network with Reciprocal Loss for Two-view Correspondence Learning, MM'2023 
 - [PGFNet] PGFNet: Preference-Guided Filtering Network for Two-View Correspondence Learning, TIP'2023 [[pdf]](https://ieeexplore.ieee.org/document/10041834/) [[code]](https://github.com/guobaoxiao/PGFNet)
 - [JRA-Net] JRA-Net: Joint representation attention network for correspondence learning, PR'2023 [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0031320322006598)
 #### 2024
@@ -37,7 +37,7 @@
 - [DHM-Net] DHM-Net: Deep Hypergraph Modeling  for Robust Feature Matching, TIP'2024 [[code]](https://github.com/CSX777/DHM-Net)
 - [ResMatch] ResMatch: Residual Attention Learning for Feature Matching, AAAI'2024 [[code]](https://github.com/ACuOoOoO/ResMatch)
 - [GCT-Net] Graph Context Transformation Learning for Progressive Correspondence Pruning, AAAI'2024 [[code]](https://github.com/JunwenGuo/GCT-Net)
-- [TrGa] TrGa: Reconsidering the Application of Graph Neural Networks in Two-View Correspondence Pruning, ACMMM'2024 [[code]](https://github.com/Dailuanyuan2024/TrGa2024)
+- [TrGa] TrGa: Reconsidering the Application of Graph Neural Networks in Two-View Correspondence Pruning, MM'2024 [[code]](https://github.com/Dailuanyuan2024/TrGa2024)
 - [CorrMAE] CorrMAE: Pre-training Correspondence Transformers with Masked Autoencoder, arxiv'2024 [[pdf]](https://arxiv.org/pdf/2406.05773)
 - [VSFormer] VSFormer: Visual-Spatial Fusion Transformer for Correspondence Pruning, AAAI'2024 [[code]](https://github.com/sugar-fly/VSFormer)
 - [MGNet] MGNet: Learning Correspondences via Multiple Graphs, AAAI'2024 [[code]](https://github.com/DAILUANYUAN/MGNet-2024AAAI)
@@ -51,8 +51,8 @@
 - [DeMo] Deep motion field consensus with learnable kernels for two-view correspondence learning, AAAI'2025 [[code]](https://github.com/JiajunLe/DeMo)
 - [MambaMatch] MambaMatch: Establishing Reliable Correspondences via Multi-Scale State Space Model, TIP'2025 [[code]](https://github.com/mxyttkx/MambaMatch)
 - [GSLC] Grid-Guided Sparse Laplacian Consensus for Robust Feature Matching, TIP'2025 [[code]](https://github.com/XiaYifan1999/GSLC)
-- [CSBCNet] Two-View Correspondence Pruning via Channel-Spatial Interaction and Bidirectional Consensus Interaction, ACMMM'2025 [[code]](https://github.com/jiaowohxg/CSBCNet)
-- [CorrNeXt] CorrNeXt: Making the ConvNet-Style Correspondence Pruner Stronger for Two-View Geometry,  ACMMM'2025 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3746027.3755350)
+- [CSBCNet] Two-View Correspondence Pruning via Channel-Spatial Interaction and Bidirectional Consensus Interaction, MM'2025 [[code]](https://github.com/jiaowohxg/CSBCNet)
+- [CorrNeXt] CorrNeXt: Making the ConvNet-Style Correspondence Pruner Stronger for Two-View Geometry,  MM'2025 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3746027.3755350)
 - [TransMatch] TransMatch: Transformer-based correspondence pruning via local and global consensus, PR'2025 [[code]](https://github.com/lyz8023lyp/TransMatch/)
 - [SGNNet] Seed to Prune: A Seeded Graph Neural Network for Two-View Correspondence Learning, TNNLS'2025 [[code]](https://github.com/ZizhuoLi/SGNNet)
 #### 2026
