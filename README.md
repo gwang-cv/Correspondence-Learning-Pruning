@@ -1,6 +1,6 @@
 # Correspondence Learning/Pruning
 
-![Correspondence-Learning-Pruning](corr.png)
+![Correspondence-Learning-Pruning](corrprun.png)
 
 #### 2018
 - [LFGC] Learning to Find Good Correspondences, CVPR 2018 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1453.pdf) [[code]](https://github.com/vcg-uvic/learned-correspondence-release) 
