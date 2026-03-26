@@ -8,17 +8,21 @@
 - [OANet] Learning Two-View Correspondences and Geometry Using Order-Aware Network ICCV'2019 [[code]](https://github.com/zjhthu/OANet)
 - [NM-Net] NM-Net: Mining Reliable Neighbors for Robust Feature Correspondences, arXiv'2019 [[pdf]](https://arxiv.org/pdf/1904.00320)
 - [NG-RANSAC] Neural-Guided RANSAC: Learning Where to Sample Model Hypotheses, ICCV'2019 [[pdf](https://arxiv.org/pdf/1905.04132.pdf)] [[code](https://github.com/vislearn/ngransac)] [[project](https://hci.iwr.uni-heidelberg.de/vislearn/research/neural-guided-ransac/)]
+#### 2020
 - [ACNe] ACNe: Attentive context normalization for robust permutation-equivariant learning, CVPR'2020[[code]](https://github.com/vcg-uvic/acne)
 - [SuperGlue] SuperGlue: Learning Feature Matching with Graph Neural Networks, CVPR'2020 [[code]](https://github.com/magicleap/SuperGluePretrainedNetwork)
+#### 2021
 - [SGMNet] Learning to Match Features with Seeded Graph Matching Network, ICCV'2021 [[pdf](https://ieeexplore.ieee.org/document/9711340/)]
 - [LMCNet] Learnable Motion Coherence for Correspondence Pruning, CVPR'2021 [[code]](https://liuyuan-pal.github.io/LMCNet/)
 - [CLNet] Progressive Correspondence Pruning by Consensus Learning, ICCV'2021 [[code]](https://sailor-z.github.io/projects/CLNet)
 - [T-Net] T-Net: Effective Permutation-Equivariant Network for Two-View Correspondence Learning, ICCV'2021 [[code]](https://github.com/x-gb/T-Net)
+#### 2022
 - [CAT] Correspondence Attention Transformer: A Context-sensitive Network for Two-view Correspondence Learning, TMM'2022 [[code]](https://github.com/jiayi-ma/CorresAttnTransformer)
 - [MS2DG-Net] MS2DG-Net: Progressive Correspondence Learning via Multiple Sparse Semantics Dynamic Graph, CVPR'2022 [[code]](https://github.com/changcaiyang/MS2DG-Net)
 - [MQ-Net] Learning To Find Good Models in RANSAC, CVPR'2022 [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Barath_Learning_To_Find_Good_Models_in_RANSAC_CVPR_2022_paper.pdf) [[code]](https://github.com/danini/learning-good-models-in-ransac)
 - [CSDA-Net] CSDA-Net: Seeking reliable correspondences by channel-Spatial difference augment network, PR'2022 [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0031320322000206)
 - [MSA-Net] MSA-Net: Establishing Reliable Correspondences by Multiscale Attention Network, TIP'2022 [[code]](https://github.com/guobaoxiao/MSANet)
+#### 2023
 - [ConvMatch] ConvMatch: Rethinking Network Design for Two-View Correspondence Learning, AAAI'2023 [[code]](https://github.com/SuhZhang/ConvMatch)
 - [NCMNet] Progressive Neighbor Consistency Mining for Correspondence Pruning, CVPR'2023 [[code]](https://github.com/xinliu29/NCMNet)
 - [∇-RANSAC] Generalized Differentiable RANSAC, ICCV'2023 [[code]](https://github.com/weitong8591/differentiable_ransac)
@@ -28,6 +32,7 @@
 - [MSA-Net] Local Consensus Enhanced Siamese Network with Reciprocal Loss for Two-view Correspondence Learning, ACMMM'2023 
 - [PGFNet] PGFNet: Preference-Guided Filtering Network for Two-View Correspondence Learning, TIP'2023 [[pdf]](https://ieeexplore.ieee.org/document/10041834/) [[code]](https://github.com/guobaoxiao/PGFNet)
 - [JRA-Net] JRA-Net: Joint representation attention network for correspondence learning, PR'2023 [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0031320322006598)
+#### 2024
 - [MaKeGNN] Learning Feature Matching via Matchable Keypoint-Assisted Graph Neural Network, TIP'2024 [[pdf]](http://arxiv.org/abs/2307.01447)
 - [DHM-Net] DHM-Net: Deep Hypergraph Modeling  for Robust Feature Matching, TIP'2024 [[code]](https://github.com/CSX777/DHM-Net)
 - [ResMatch] ResMatch: Residual Attention Learning for Feature Matching, AAAI'2024 [[code]](https://github.com/ACuOoOoO/ResMatch)
@@ -41,6 +46,7 @@
 - [SSL-Net] SSL-Net: Sparse semantic learning for identifying reliable correspondences, PR'2024 [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0031320323007367)
 - [DeMatch] DeMatch: Deep Decomposition of Motion Field for Two-View Correspondence Learning, CVPR'2024 [[code]](https://github.com/SuhZhang/DeMatch)
 - [CorrAdaptor] CorrAdaptor: Adaptive Local Context Learning for Correspondence Pruning, ECAI'2024 [[code]](https://github.com/TaoWangzj/CorrAdaptor)
+#### 2025
 - [MGCANet] MGCA-Net: Multi-graph contextual attention network for two-view correspondence learning, IJCAI'2025 [[code]](https://github.com/shuyuanlin/MGCANet)
 - [DeMo] Deep motion field consensus with learnable kernels for two-view correspondence learning, AAAI'2025 [[code]](https://github.com/JiajunLe/DeMo)
 - [MambaMatch] MambaMatch: Establishing Reliable Correspondences via Multi-Scale State Space Model, TIP'2025 [[code]](https://github.com/mxyttkx/MambaMatch)
@@ -49,6 +55,7 @@
 - [CorrNeXt] CorrNeXt: Making the ConvNet-Style Correspondence Pruner Stronger for Two-View Geometry,  ACMMM'2025 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3746027.3755350)
 - [TransMatch] TransMatch: Transformer-based correspondence pruning via local and global consensus, PR'2025 [[code]](https://github.com/lyz8023lyp/TransMatch/)
 - [SGNNet] Seed to Prune: A Seeded Graph Neural Network for Two-View Correspondence Learning, TNNLS'2025 [[code]](https://github.com/ZizhuoLi/SGNNet)
+#### 2026
 - [LLHA-Net] LLHA-Net: A hierarchical attention network for two-view correspondence learning, PR'2026 [[code]](https://github.com/shuyuanlin?tab=repositories)
 - [SC-Net] SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, AAAI'2026 [[code]](https://github.com/shuyuanlin/SCNet)
 - [MCD] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, AAAI'2026 [[code]](https://github.com/comedy0913/MCD)
