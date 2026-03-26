@@ -46,6 +46,7 @@
 - [SSL-Net] SSL-Net: Sparse semantic learning for identifying reliable correspondences, PR'2024 [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0031320323007367)
 - [DeMatch] DeMatch: Deep Decomposition of Motion Field for Two-View Correspondence Learning, CVPR'2024 [[code]](https://github.com/SuhZhang/DeMatch)
 - [CorrAdaptor] CorrAdaptor: Adaptive Local Context Learning for Correspondence Pruning, ECAI'2024 [[code]](https://github.com/TaoWangzj/CorrAdaptor)
+- [NACNet] Consensus Learning with Deep Sets for Essential Matrix Estimation, NeurIPS'2024 [[code]](https://github.com/drormoran/NACNet)
 #### 2025
 - [MGCANet] MGCA-Net: Multi-graph contextual attention network for two-view correspondence learning, IJCAI'2025 [[code]](https://github.com/shuyuanlin/MGCANet)
 - [DeMo] Deep motion field consensus with learnable kernels for two-view correspondence learning, AAAI'2025 [[code]](https://github.com/JiajunLe/DeMo)
