@@ -65,4 +65,17 @@
 # Related Applications
 - Deep Permutation Equivariant Structure From Motion, ICCV 2021 
 - RESfM: Robust Deep Equivariant Structure from Motion, ICLR 2025 
-- Learning to Filter Outlier Edges in Global SfM, CVPR 2025
+- Learning to Filter Outlier Edges in Global SfM, CVPR 2025 
+- DeepI2P: Image-to-Point Cloud Registration via Deep Classification, CVPR 2021
+- P2-Net: Joint Description and Detection of Local Features for Pixel and Point Matching, ICCV 2021  
+- 2D3D-MATR: 2D-3D Matching Transformer for Detection-Free Registration Between Images and Point Clouds, ICCV 2023
+- EP2P-Loc: End-to-End 3D Point to 2D Pixel Localization for Large-Scale Visual Localization, ICCV 2023
+- Learning to Produce Semi-dense Correspondences for Visual Localization, CVPR 2024
+- Implicit Correspondence Learning for Image-to-Point Cloud Registration, CVPR 2025
+- GraphI2P: Image-to-Point Cloud Registration with Exploring Pattern of Correspondence via Graph Learning, CVPR 2025
+- MinCD-PnP: Learning 2D-3D Correspondences with Approximate Blind PnP, ICCV 2025
+- Diff2I2P: Differentiable Image-to-Point Cloud Registration with Diffusion Prior, ICCV 2025
+- OnePose: One-Shot Object Pose Estimation Without CAD Models, CVPR 2022
+- OnePose++: Keypoint-Free One-Shot Object Pose Estimation without CAD Models, NeurIPS 2022
+- BPnP: End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization, CVPR 2020
+- EPro-PnP: Generalized End-to-End Probabilistic Perspective-N-Points for Monocular Object Pose Estimation, CVPR 2022
