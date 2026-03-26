@@ -65,7 +65,8 @@
 # Related Applications
 - Deep Permutation Equivariant Structure From Motion, ICCV 2021 
 - RESfM: Robust Deep Equivariant Structure from Motion, ICLR 2025 
-- Learning to Filter Outlier Edges in Global SfM, CVPR 2025 
+- Learning to Filter Outlier Edges in Global SfM, CVPR 2025
+- A2-GNN: Angle-Annular GNN for Visual Descriptor-free Camera Relocalization, 3DV 2025
 - DeepI2P: Image-to-Point Cloud Registration via Deep Classification, CVPR 2021
 - P2-Net: Joint Description and Detection of Local Features for Pixel and Point Matching, ICCV 2021  
 - 2D3D-MATR: 2D-3D Matching Transformer for Detection-Free Registration Between Images and Point Clouds, ICCV 2023
