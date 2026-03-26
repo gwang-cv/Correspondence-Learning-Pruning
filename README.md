@@ -61,3 +61,8 @@
 - [SC-Net] SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, AAAI'2026 [[code]](https://github.com/shuyuanlin/SCNet)
 - [MCD] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, AAAI'2026 [[code]](https://github.com/comedy0913/MCD)
 - [CorrMamba] Selecting and Pruning: A Differentiable Causal Sequentialized State-Space Model for Two-View Correspondence Learning, TIP 2026 [[code]](https://github.com/ShineFox/CorrMamba)
+
+# Related Applications
+- Deep Permutation Equivariant Structure From Motion, ICCV 2021 
+- RESfM: Robust Deep Equivariant Structure from Motion, ICLR 2025 
+- Learning to Filter Outlier Edges in Global SfM, CVPR 2025
