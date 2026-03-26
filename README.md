@@ -16,6 +16,7 @@
 - [LMCNet] Learnable Motion Coherence for Correspondence Pruning, CVPR'2021 [[code]](https://liuyuan-pal.github.io/LMCNet/)
 - [CLNet] Progressive Correspondence Pruning by Consensus Learning, ICCV'2021 [[code]](https://sailor-z.github.io/projects/CLNet)
 - [T-Net] T-Net: Effective Permutation-Equivariant Network for Two-View Correspondence Learning, ICCV'2021 [[code]](https://github.com/x-gb/T-Net)
+- [GLHA] Cascade Network with Guided Loss and Hybrid Attention for Finding Good Correspondences, AAAI'2021 [[code]](https://github.com/wenbingtao/GLHA)
 #### 2022
 - [CAT] Correspondence Attention Transformer: A Context-sensitive Network for Two-view Correspondence Learning, TMM'2022 [[code]](https://github.com/jiayi-ma/CorresAttnTransformer)
 - [MS2DG-Net] MS2DG-Net: Progressive Correspondence Learning via Multiple Sparse Semantics Dynamic Graph, CVPR'2022 [[code]](https://github.com/changcaiyang/MS2DG-Net)
