@@ -60,6 +60,7 @@
 - [TransMatch] TransMatch: Transformer-based correspondence pruning via local and global consensus, PR 2025 [[code]](https://github.com/lyz8023lyp/TransMatch/)
 - [SGNNet] Seed to Prune: A Seeded Graph Neural Network for Two-View Correspondence Learning, TNNLS 2025 [[code]](https://github.com/ZizhuoLi/SGNNet)
 - [GeoMoE] GeoMoE: Divide-and-Conquer Motion Field Modeling with Mixture-of-Experts for Two-View Geometry, arxiv 2025
+- [HAT-Match] HAT-Match: Graph Transformer with Hybrid Attention for Two-View Correspondence Pruning, ECAI 2025 [[code]](https://github.com/gwang-cv/HAT-Match)
 #### 2026
 - [LLHA-Net] LLHA-Net: A hierarchical attention network for two-view correspondence learning, PR 2026 [[code]](https://github.com/shuyuanlin?tab=repositories)
 - [SC-Net] SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, AAAI 2026 [[code]](https://github.com/shuyuanlin/SCNet)
