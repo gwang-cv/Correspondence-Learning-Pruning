@@ -58,14 +58,14 @@
 - [CSBCNet] Two-View Correspondence Pruning via Channel-Spatial Interaction and Bidirectional Consensus Interaction, MM 2025 [[code]](https://github.com/jiaowohxg/CSBCNet)
 - [CorrNeXt] CorrNeXt: Making the ConvNet-Style Correspondence Pruner Stronger for Two-View Geometry,  MM 2025 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3746027.3755350)
 - [TransMatch] TransMatch: Transformer-based correspondence pruning via local and global consensus, PR 2025 [[code]](https://github.com/lyz8023lyp/TransMatch/)
-- [SGNNet] Seed to Prune: A Seeded Graph Neural Network for Two-View Correspondence Learning, TNNLS 2025 [[code]](https://github.com/ZizhuoLi/SGNNet)
-- [GeoMoE] GeoMoE: Divide-and-Conquer Motion Field Modeling with Mixture-of-Experts for Two-View Geometry, arxiv 2025
+- [SGNNet] Seed to Prune: A Seeded Graph Neural Network for Two-View Correspondence Learning, TNNLS 2025 [[code]](https://github.com/ZizhuoLi/SGNNet) 
 - [HAT-Match] HAT-Match: Graph Transformer with Hybrid Attention for Two-View Correspondence Pruning, ECAI 2025 [[code]](https://github.com/gwang-cv/HAT-Match)
 #### 2026
 - [LLHA-Net] LLHA-Net: A hierarchical attention network for two-view correspondence learning, PR 2026 [[code]](https://github.com/shuyuanlin?tab=repositories)
 - [SC-Net] SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, AAAI 2026 [[code]](https://github.com/shuyuanlin/SCNet)
 - [MCD] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, AAAI 2026 [[code]](https://github.com/comedy0913/MCD)
 - [CorrMamba] Selecting and Pruning: A Differentiable Causal Sequentialized State-Space Model for Two-View Correspondence Learning, TIP 2026 [[code]](https://github.com/ShineFox/CorrMamba)
+- [GeoMoE] GeoMoE: Divide-and-Conquer Motion Field Modeling with Mixture-of-Experts for Two-View Geometry, AAAI 2026 [[pdf]](https://arxiv.org/abs/2508.00592) [[code]](https://github.com/JiajunLe/GeoMoE)
 
 # Related Applications
 - Deep Permutation Equivariant Structure From Motion, ICCV 2021 
