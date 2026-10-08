@@ -64,6 +64,7 @@
 
 - [LLHA-Net] LLHA-Net: A hierarchical attention network for two-view correspondence learning, PR 2026 [[repo]](https://github.com/shuyuanlin?tab=repositories)
 - [SC-Net] SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37632/41594) [[repo]](https://github.com/shuyuanlin/SCNet)
+- [MCD] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37954/41916) [[project]](https://comedy0913.github.io/projects/MCD.html) [[repo]](https://github.com/comedy0913/MCD)
 - [CorrMamba] Selecting and Pruning: A Differentiable Causal Sequentialized State-Space Model for Two-View Correspondence Learning, TIP 2026 [[DOI]](https://doi.org/10.1109/TIP.2026.3653189) [[repo]](https://github.com/ShineFox/CorrMamba)
 - [GeoMoE] GeoMoE: Divide-and-Conquer Motion Field Modeling with Mixture-of-Experts for Two-View Geometry, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37506/41468) [[code]](https://github.com/JiajunLe/GeoMoE)
 - [GeneralPruner] Scalable and Generalizable Correspondence Pruning via Geometry-Consistent Pre-Training, TPAMI 2026 [[DOI]](https://doi.org/10.1109/TPAMI.2026.3682079) [[paper]](https://arxiv.org/abs/2406.05773) [[code]](https://github.com/sugar-fly/GeneralPruner)
@@ -97,7 +98,6 @@
 - [SAG-GNN] SAG-GNN: Semantic-Aware Guided GNN for Descriptor-Free 2D-3D Matching, CVPR 2026 [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SAG-GNN_Semantic-Aware_Guided_GNN_for_Descriptor-Free_2D-3D_Matching_CVPR_2026_paper.html) [[code]](https://github.com/tinxu0203/SAG-GNN)
 - [Loc²] Loc²: Interpretable Cross-View Localization via Depth-Lifted Local Feature Matching, ICLR 2026 [[paper]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ac895e51849bfc99ae25e054fd4c2eda-Abstract-Conference.html) [[code]](https://github.com/vita-epfl/Loc2)
 - [C3PO] C3PO: Canonicalization of 3D Pose from Partial Views With Generalizable Correspondence Features, 3DV 2026 [[DOI]](https://doi.org/10.1109/3DV69130.2026.00062)
-- [MCD] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37954/41916) [[project]](https://comedy0913.github.io/projects/MCD.html) [[repo]](https://github.com/comedy0913/MCD)
 - [SAE] Boosting Correspondence Learning with Structure-Aware Estimator, ECCV 2026 [[paper]](https://eccv.ecva.net/virtual/2026/poster/4879) [[code]](https://github.com/Tianyu-Yan/SAE)
 - [CFM / ECFM] Collaborative Feature Matching with Progressive Correspondence Learning, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37669/41631) [[code]](https://github.com/xinliu29/CFM)
 - [SLiM] Scalable Feature Matching via State Space Modeling and Sparse Correlation, CVPR 2026 [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Choo_Scalable_Feature_Matching_via_State_Space_Modeling_and_Sparse_Correlation_CVPR_2026_paper.html) [[code]](https://github.com/Band-127/SLiM)
