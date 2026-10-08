@@ -2,14 +2,6 @@
 
 ![Correspondence-Learning-Pruning](corrprun.png)
 
-A curated list of correspondence learning, outlier pruning, feature matching, and related geometric vision resources.
-
-**Last literature check: 2026-10-08.** The [2026 update](#2026) screens NeurIPS (formerly NIPS), ICLR, ICML, CVPR, ICCV, AAAI, ECCV, 3DV, TPAMI, TIP, and TMM for published or officially accepted papers. Entries are selected for relevance; this is not an exhaustive survey. Earlier collections are retained, including venues outside this update's scope.
-
-- [2026 correspondence learning and pruning](#2026)
-- [2026 related applications](#2026-related-applications)
-- [Search scope and verification](#search-scope-and-verification)
-
 #### 2018
 - [LFGC] Learning to Find Good Correspondences, CVPR 2018 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1453.pdf) [[code]](https://github.com/vcg-uvic/learned-correspondence-release) 
 - [DFE] Deep fundamental matrix estimation, ECCV 2018 [[code]](https://github.com/isl-org/DFE)
@@ -70,52 +62,29 @@ A curated list of correspondence learning, outlier pruning, feature matching, an
 - [HAT-Match] HAT-Match: Graph Transformer with Hybrid Attention for Two-View Correspondence Pruning, ECAI 2025 [[code]](https://github.com/gwang-cv/HAT-Match)
 #### 2026
 
-The following **20 papers** have a verified 2026 publication or official conference-program listing. NeurIPS entries are **accepted / scheduled**: the conference is still upcoming at the verification date, so these are not described as already published proceedings.
-
-##### Correspondence learning, pruning, and robust estimation
-
-- **[ISR-Net]** Correspondence Pruning by Iterative Structural Rectification, **NeurIPS 2026 (accepted / scheduled)** [[official]](https://neurips.cc/virtual/2026/poster/155477) [[OpenReview]](https://openreview.net/forum?id=5J1rwV6KnM). Rebuilds local graphs and global cluster assignments at each layer so structure and features evolve together.
-- **[RANSAC Scoring]** RANSAC Scoring Done Right, **NeurIPS 2026 (accepted / scheduled)** [[official]](https://neurips.cc/virtual/2026/poster/154742) [[paper]](https://arxiv.org/abs/2606.27385) [[OpenReview]](https://openreview.net/forum?id=BK5yH67CQC). Analytically marginalizes inlier noise scale before optimizing the inlier partition, reducing dependence on manually calibrated scoring thresholds.
-- **[SAE]** Boosting Correspondence Learning with Structure-Aware Estimator, **ECCV 2026** [[official / paper]](https://eccv.ecva.net/virtual/2026/poster/4879) [[code]](https://github.com/Tianyu-Yan/SAE). Uses a graph Laplacian to model inlier correlations in a differentiable geometric estimator that can replace weighted least squares.
-- **[GeneralPruner]** Scalable and Generalizable Correspondence Pruning via Geometry-Consistent Pre-Training, **TPAMI 2026**, 48(8):10048–10065 [[DOI]](https://doi.org/10.1109/TPAMI.2026.3682079) [[paper]](https://arxiv.org/abs/2406.05773) [[code]](https://github.com/sugar-fly/GeneralPruner). Combines masked inlier reconstruction with a dual-stream consensus encoder to learn transferable geometric representations. This is the 2026 journal version of the earlier CorrMAE preprint listed under 2024.
-- **[CorrMamba]** Selecting and Pruning: A Differentiable Causal Sequentialized State-Space Model for Two-View Correspondence Learning, **TIP 2026**, 35:816–829 [[DOI]](https://doi.org/10.1109/TIP.2026.3653189) [[abstract]](https://pubmed.ncbi.nlm.nih.gov/41543960/) [[repository]](https://github.com/ShineFox/CorrMamba). Learns differentiable causal ordering for state-space correspondence filtering. The author-linked repository is empty as of the verification date.
-- **[DDFNet]** DDFNet: Dual-Neighborhoods Dynamic Fusion Network for Image Feature Matching, **TMM 2026**, 28:6407–6420 [[DOI]](https://doi.org/10.1109/TMM.2026.3668661) [[repository]](https://github.com/1211193023/DDFNet). The author-linked repository currently contains a results file only; implementation availability is not confirmed.
-- **[CFM / ECFM]** Collaborative Feature Matching with Progressive Correspondence Learning, **AAAI 2026**, 40(9):7314–7322 [[official]](https://ojs.aaai.org/index.php/AAAI/article/view/37669) [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37669/41631) [[code]](https://github.com/xinliu29/CFM). Jointly trains keypoint and correspondence modules with progressive feedback; ECFM adds adaptive keypoint sampling.
-- **[SC-Net]** SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, **AAAI 2026**, 40(9):6979–6987 [[official]](https://ojs.aaai.org/index.php/AAAI/article/view/37632) [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37632/41594) [[repository]](https://github.com/shuyuanlin/SCNet). Refines motion fields through spatial and channel context. The repository currently contains documentation and a license, without implementation files.
-- **[MCD]** Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, **AAAI 2026**, 40(12):9894–9902 [[official]](https://ojs.aaai.org/index.php/AAAI/article/view/37954) [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37954/41916) [[project]](https://comedy0913.github.io/projects/MCD.html) [[repository]](https://github.com/comedy0913/MCD). Generates varied noisy correspondence distributions for training robust estimators across matchers. The repository currently contains a README only.
-- **[GeoMoE]** GeoMoE: Divide-and-Conquer Motion Field Modeling with Mixture-of-Experts for Two-View Geometry, **AAAI 2026**, 40(7):5845–5853 [[official]](https://ojs.aaai.org/index.php/AAAI/article/view/37506) [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37506/41468) [[code]](https://github.com/JiajunLe/GeoMoE). Decomposes heterogeneous motion fields using inlier priors and routes sub-fields to specialized experts.
-
-##### Feature matching and correspondence generation
-
-These methods produce or refine matches; they are useful companion work to correspondence pruners rather than interchangeable pruning baselines.
-
-- **[WAM]** WovenAnchor Matcher: Specialized Intra- and Inter-Image Context Modeling for Feature Matching, **NeurIPS 2026 (accepted / scheduled)** [[official]](https://neurips.cc/virtual/2026/poster/155912) [[OpenReview]](https://openreview.net/forum?id=1tYCWPWHHq). Separates within-image state-space propagation from anchor-based cross-image attention for semi-dense matching.
-- **[SLiM]** Scalable Feature Matching via State Space Modeling and Sparse Correlation, **CVPR 2026** [[official / paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Choo_Scalable_Feature_Matching_via_State_Space_Modeling_and_Sparse_Correlation_CVPR_2026_paper.html) [[code]](https://github.com/Band-127/SLiM). Uses a Conv-Mamba backbone, norm-based feature filtering, sparse correlation, and recurrent coordinate refinement.
-- **[TextFM]** TextFM: Robust Semi-dense Feature Matching with Language Guidance, **CVPR 2026** [[official / paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_TextFM_Robust_Semi-dense_Feature_Matching_with_Language_Guidance_CVPR_2026_paper.html). Introduces language context and illumination priors to improve matching under domain and lighting changes.
-- **[MV-RoMa]** MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction, **CVPR 2026** [[official / paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Lee_MV-RoMa_From_Pairwise_Matching_into_Multi-View_Track_Reconstruction_CVPR_2026_paper.html). Jointly refines dense correspondences across co-visible views to obtain more consistent SfM tracks.
-- **[UniCorrn]** UniCorrn: Unified Correspondence Transformer Across 2D and 3D, **CVPR 2026** [[official / paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Goswami_UniCorrn_Unified_Correspondence_Transformer_Across_2D_and_3D_CVPR_2026_paper.html) [[code]](https://github.com/neu-vi/UniCorrn). Shares a correspondence encoder and decoder across 2D–2D, 2D–3D, and 3D–3D geometric matching.
-- **[LoMa]** LoMa: Local Feature Matching Revisited, **ECCV 2026** [[official / paper]](https://eccv.ecva.net/virtual/2026/poster/4073) [[project]](https://davnords.com/loma) [[code]](https://github.com/davnords/LoMa). Scales data diversity and local matching models, and introduces the manually annotated HardMatch benchmark.
-- **[RoMa v2]** RoMa v2: Harder Better Faster Denser Feature Matching, **ECCV 2026** [[official / paper]](https://eccv.ecva.net/virtual/2026/poster/3967). Revises dense matching architecture, training data and refinement, incorporating DINOv3 features for challenging image pairs.
-- **[AnyMatch]** AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images, **ECCV 2026** [[official / paper]](https://eccv.ecva.net/virtual/2026/poster/5344). Synthesizes geometrically annotated multi-view, multi-modal pairs from single images to train matchers.
-- **[SemLight]** SemLight: Distilled Semantic–Geometric Fusion for Efficient Local Feature Matching, **ECCV 2026** [[official / paper]](https://eccv.ecva.net/virtual/2026/poster/5382). Distills compact semantic priors to guide appearance and geometry fusion in efficient local matching.
-- **[Match-Any-Events]** Match-Any-Events: Zero-Shot Motion-Robust Feature Matching Across Wide Baselines for Event Cameras, **ECCV 2026** [[official / paper]](https://eccv.ecva.net/virtual/2026/poster/4933) [[code]](https://github.com/spikelab-jhu/Match-Any-Events). Combines motion-aware event features, sparse token selection and synthetic supervision for matching on unseen datasets.
-
-##### Previously collected 2026 work outside this update's venue scope
-
-- [LLHA-Net] LLHA-Net: A hierarchical attention network for two-view correspondence learning, PR 2026 [[author repositories]](https://github.com/shuyuanlin?tab=repositories). Retained from the original collection; Pattern Recognition is outside the venue scope of this update.
+- [LLHA-Net] LLHA-Net: A hierarchical attention network for two-view correspondence learning, PR 2026 [[repo]](https://github.com/shuyuanlin?tab=repositories)
+- [SC-Net] SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37632/41594) [[repo]](https://github.com/shuyuanlin/SCNet)
+- [MCD] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37954/41916) [[project]](https://comedy0913.github.io/projects/MCD.html) [[repo]](https://github.com/comedy0913/MCD)
+- [CorrMamba] Selecting and Pruning: A Differentiable Causal Sequentialized State-Space Model for Two-View Correspondence Learning, TIP 2026 [[DOI]](https://doi.org/10.1109/TIP.2026.3653189) [[repo]](https://github.com/ShineFox/CorrMamba)
+- [GeoMoE] GeoMoE: Divide-and-Conquer Motion Field Modeling with Mixture-of-Experts for Two-View Geometry, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37506/41468) [[code]](https://github.com/JiajunLe/GeoMoE)
+- [ISR-Net] Correspondence Pruning by Iterative Structural Rectification, NeurIPS 2026 (accepted) [[paper]](https://neurips.cc/virtual/2026/poster/155477)
+- [RANSAC Scoring] RANSAC Scoring Done Right, NeurIPS 2026 (accepted) [[paper]](https://arxiv.org/abs/2606.27385) [[OpenReview]](https://openreview.net/forum?id=BK5yH67CQC)
+- [SAE] Boosting Correspondence Learning with Structure-Aware Estimator, ECCV 2026 [[paper]](https://eccv.ecva.net/virtual/2026/poster/4879) [[code]](https://github.com/Tianyu-Yan/SAE)
+- [GeneralPruner] Scalable and Generalizable Correspondence Pruning via Geometry-Consistent Pre-Training, TPAMI 2026 [[DOI]](https://doi.org/10.1109/TPAMI.2026.3682079) [[paper]](https://arxiv.org/abs/2406.05773) [[code]](https://github.com/sugar-fly/GeneralPruner)
+- [DDFNet] DDFNet: Dual-Neighborhoods Dynamic Fusion Network for Image Feature Matching, TMM 2026 [[DOI]](https://doi.org/10.1109/TMM.2026.3668661) [[repo]](https://github.com/1211193023/DDFNet)
+- [CFM / ECFM] Collaborative Feature Matching with Progressive Correspondence Learning, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37669/41631) [[code]](https://github.com/xinliu29/CFM)
+- [WAM] WovenAnchor Matcher: Specialized Intra- and Inter-Image Context Modeling for Feature Matching, NeurIPS 2026 (accepted) [[paper]](https://neurips.cc/virtual/2026/poster/155912)
+- [SLiM] Scalable Feature Matching via State Space Modeling and Sparse Correlation, CVPR 2026 [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Choo_Scalable_Feature_Matching_via_State_Space_Modeling_and_Sparse_Correlation_CVPR_2026_paper.html) [[code]](https://github.com/Band-127/SLiM)
+- [TextFM] TextFM: Robust Semi-dense Feature Matching with Language Guidance, CVPR 2026 [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_TextFM_Robust_Semi-dense_Feature_Matching_with_Language_Guidance_CVPR_2026_paper.html)
+- [MV-RoMa] MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction, CVPR 2026 [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Lee_MV-RoMa_From_Pairwise_Matching_into_Multi-View_Track_Reconstruction_CVPR_2026_paper.html)
+- [UniCorrn] UniCorrn: Unified Correspondence Transformer Across 2D and 3D, CVPR 2026 [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Goswami_UniCorrn_Unified_Correspondence_Transformer_Across_2D_and_3D_CVPR_2026_paper.html) [[code]](https://github.com/neu-vi/UniCorrn)
+- [LoMa] LoMa: Local Feature Matching Revisited, ECCV 2026 [[paper]](https://eccv.ecva.net/virtual/2026/poster/4073) [[project]](https://davnords.com/loma) [[code]](https://github.com/davnords/LoMa)
+- [RoMa v2] RoMa v2: Harder Better Faster Denser Feature Matching, ECCV 2026 [[paper]](https://eccv.ecva.net/virtual/2026/poster/3967)
+- [AnyMatch] AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images, ECCV 2026 [[paper]](https://eccv.ecva.net/virtual/2026/poster/5344)
+- [SemLight] SemLight: Distilled Semantic–Geometric Fusion for Efficient Local Feature Matching, ECCV 2026 [[paper]](https://eccv.ecva.net/virtual/2026/poster/5382)
+- [Match-Any-Events] Match-Any-Events: Zero-Shot Motion-Robust Feature Matching Across Wide Baselines for Event Cameras, ECCV 2026 [[paper]](https://eccv.ecva.net/virtual/2026/poster/4933) [[code]](https://github.com/spikelab-jhu/Match-Any-Events)
 
 # Related Applications
-
-## 2026 related applications
-
-These **4 additional papers** connect correspondence reasoning to registration, localization, and pose estimation.
-
-- **[Ex-Sim(3)-Reg]** Ex-Sim(3)-Reg: 2D-3D Correspondence Pruning via Extended Sim(3) Registration, **ECCV 2026** [[official / paper]](https://eccv.ecva.net/virtual/2026/poster/4129) [[paper]](https://arxiv.org/abs/2608.28096) [[code]](https://github.com/anpei96/ex-sim3-demo). Models monocular depth noise explicitly when lifting 2D–3D matches for outlier pruning. This is a geometric pruning algorithm, not a learned two-view pruner.
-- **[SAG-GNN]** SAG-GNN: Semantic-Aware Guided GNN for Descriptor-Free 2D-3D Matching, **CVPR 2026** [[official / paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SAG-GNN_Semantic-Aware_Guided_GNN_for_Descriptor-Free_2D-3D_Matching_CVPR_2026_paper.html) [[code]](https://github.com/tinxu0203/SAG-GNN). Adds compact semantic guidance to descriptor-free correspondence inference for visual localization.
-- **[Loc²]** Loc²: Interpretable Cross-View Localization via Depth-Lifted Local Feature Matching, **ICLR 2026** [[official / paper]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ac895e51849bfc99ae25e054fd4c2eda-Abstract-Conference.html) [[code]](https://github.com/vita-epfl/Loc2). Lifts ground–aerial matches using monocular depth and estimates pose through scale-aware Procrustes alignment, with RANSAC outlier rejection.
-- **[C3PO]** C3PO: Canonicalization of 3D Pose from Partial Views With Generalizable Correspondence Features, **3DV 2026**, pp. 587–597 [[DOI]](https://doi.org/10.1109/3DV69130.2026.00062) [[author publication record]](https://cvg.vision.in.tum.de/publications?key=chi2026c3po).
-
-## Earlier applications
 
 - Deep Permutation Equivariant Structure From Motion, ICCV 2021 
 - RESfM: Robust Deep Equivariant Structure from Motion, ICLR 2025 
@@ -138,29 +107,7 @@ These **4 additional papers** connect correspondence reasoning to registration, 
 - OnePose++: Keypoint-Free One-Shot Object Pose Estimation without CAD Models, NeurIPS 2022
 - BPnP: End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization, CVPR 2020
 - EPro-PnP: Generalized End-to-End Probabilistic Perspective-N-Points for Monocular Object Pose Estimation, CVPR 2022
-
-## Search scope and verification
-
-**Cutoff:** 2026-10-08. Include a paper when its official publication year is 2026, or an official 2026 main-conference program confirms acceptance. An earlier arXiv submission year does not override the final venue year. Workshop papers, unconfirmed submissions, and arXiv-only work are not added to the curated 2026 lists.
-
-**Topics:** two-view correspondence learning; correspondence pruning / outlier rejection; learned and geometric robust estimation; local, semi-dense and dense image feature matching; and closely related 2D–3D registration or localization. Generic model/token pruning, multimodal entity alignment, and unrelated uses of “correspondence” are excluded.
-
-**Venue screening:** NeurIPS/NIPS, ICLR, ICML, CVPR, ICCV, AAAI, ECCV, 3DV, TPAMI, TIP, and TMM. ICML candidates found in this search addressed other correspondence tasks and were not included. ICCV's adjacent editions are [2025](https://iccv.thecvf.com/Conferences/2025) and [2027](https://iccv.thecvf.com/Conferences/2027), so there is no ICCV 2026 section. This search does not establish that no other eligible papers exist.
-
-**Sources:** [CVF Open Access](https://openaccess.thecvf.com/CVPR2026?day=all), [ECCV accepted papers](https://eccv.ecva.net/Conferences/2026/AcceptedPapers), [NeurIPS 2026 program](https://neurips.cc/Downloads/2026), [ICLR proceedings](https://proceedings.iclr.cc/paper_files/paper/2026), [ICML 2026 program](https://icml.cc/Downloads/2026), [AAAI proceedings](https://ojs.aaai.org/index.php/AAAI), IEEE publisher DOI metadata, and author-maintained paper/code pages. DBLP and arXiv were used for discovery and cross-checking; venue attribution follows publisher or official conference records. Summaries describe the authors' proposed methods, not independently reproduced results.
-
-**Example discovery queries** (repeat with each target venue / official-domain filter):
-
-```text
-"2026" "correspondence pruning"
-"2026" "two-view correspondence"
-"2026" "feature matching"
-"2026" "RANSAC"
-"2026" "2D-3D matching"
-site:openaccess.thecvf.com/content/CVPR2026 "correspondence"
-site:proceedings.iclr.cc/paper_files/paper/2026 "feature matching"
-```
-
-Official program/proceedings titles were also screened directly using `correspondence`, `RANSAC`, `feature matching`, and `image matching`, followed by abstract screening. Journal venue/year/volume/pages were cross-checked against publisher-deposited Crossref records. Title variants and earlier preprints were checked to avoid counting the same publication twice within the 2026 update.
-
-**Resource labels:** `official` / `DOI` verifies venue attribution; `paper` / `pdf` links to a reading copy; `code` indicates that implementation files were visible in the linked author repository at the cutoff date. `repository` may be a placeholder or results-only page, as annotated above. Availability checks do not certify that the implementations run or reproduce reported results.
+- [Ex-Sim(3)-Reg] Ex-Sim(3)-Reg: 2D-3D Correspondence Pruning via Extended Sim(3) Registration, ECCV 2026 [[paper]](https://arxiv.org/abs/2608.28096) [[code]](https://github.com/anpei96/ex-sim3-demo)
+- [SAG-GNN] SAG-GNN: Semantic-Aware Guided GNN for Descriptor-Free 2D-3D Matching, CVPR 2026 [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SAG-GNN_Semantic-Aware_Guided_GNN_for_Descriptor-Free_2D-3D_Matching_CVPR_2026_paper.html) [[code]](https://github.com/tinxu0203/SAG-GNN)
+- [Loc²] Loc²: Interpretable Cross-View Localization via Depth-Lifted Local Feature Matching, ICLR 2026 [[paper]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ac895e51849bfc99ae25e054fd4c2eda-Abstract-Conference.html) [[code]](https://github.com/vita-epfl/Loc2)
+- [C3PO] C3PO: Canonicalization of 3D Pose from Partial Views With Generalizable Correspondence Features, 3DV 2026 [[DOI]](https://doi.org/10.1109/3DV69130.2026.00062)
