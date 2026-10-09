@@ -4,7 +4,7 @@
 
 #### 2026
 
-- [ISR-Net] Correspondence Pruning by Iterative Structural Rectification, NeurIPS 2026 (accepted) [[pdf]](https://openreview.net/pdf?id=5J1rwV6KnM) [[paper]](https://neurips.cc/virtual/2026/poster/155477)
+- [ISR-Net] Correspondence Pruning by Iterative Structural Rectification, NeurIPS 2026 [[pdf]](https://openreview.net/pdf?id=5J1rwV6KnM) [[paper]](https://neurips.cc/virtual/2026/poster/155477)
 - [LLHA-Net] LLHA-Net: A hierarchical attention network for two-view correspondence learning, PR 2026 [[pdf]](https://arxiv.org/pdf/2512.24620) [[DOI]](https://doi.org/10.1016/j.patcog.2025.112896) [[repo]](https://github.com/shuyuanlin?tab=repositories)
 - [SC-Net] SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37632/41594) [[repo]](https://github.com/shuyuanlin/SCNet)
 - [MCD] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37954/41916) [[project]](https://comedy0913.github.io/projects/MCD.html) [[repo]](https://github.com/comedy0913/MCD)
@@ -96,8 +96,8 @@
 
 # Related Applications
 
-- [RANSAC Scoring] RANSAC Scoring Done Right, NeurIPS 2026 (accepted) [[pdf]](https://arxiv.org/pdf/2606.27385) [[paper]](https://arxiv.org/abs/2606.27385) [[OpenReview]](https://openreview.net/forum?id=BK5yH67CQC)
-- [WAM] WovenAnchor Matcher: Specialized Intra- and Inter-Image Context Modeling for Feature Matching, NeurIPS 2026 (accepted) [[pdf]](https://openreview.net/pdf?id=1tYCWPWHHq) [[paper]](https://neurips.cc/virtual/2026/poster/155912)
+- [RANSAC Scoring] RANSAC Scoring Done Right, NeurIPS 2026 [[pdf]](https://arxiv.org/pdf/2606.27385) [[paper]](https://arxiv.org/abs/2606.27385) [[OpenReview]](https://openreview.net/forum?id=BK5yH67CQC)
+- [WAM] WovenAnchor Matcher: Specialized Intra- and Inter-Image Context Modeling for Feature Matching, NeurIPS 2026 [[pdf]](https://openreview.net/pdf?id=1tYCWPWHHq) [[paper]](https://neurips.cc/virtual/2026/poster/155912)
 - [Ex-Sim(3)-Reg] Ex-Sim(3)-Reg: 2D-3D Correspondence Pruning via Extended Sim(3) Registration, ECCV 2026 [[pdf]](https://arxiv.org/pdf/2608.28096) [[paper]](https://arxiv.org/abs/2608.28096) [[code]](https://github.com/anpei96/ex-sim3-demo)
 - [SAG-GNN] SAG-GNN: Semantic-Aware Guided GNN for Descriptor-Free 2D-3D Matching, CVPR 2026 [[pdf]](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_SAG-GNN_Semantic-Aware_Guided_GNN_for_Descriptor-Free_2D-3D_Matching_CVPR_2026_paper.pdf) [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SAG-GNN_Semantic-Aware_Guided_GNN_for_Descriptor-Free_2D-3D_Matching_CVPR_2026_paper.html) [[code]](https://github.com/tinxu0203/SAG-GNN)
 - [Loc²] Loc²: Interpretable Cross-View Localization via Depth-Lifted Local Feature Matching, ICLR 2026 [[pdf]](https://arxiv.org/pdf/2509.09792) [[paper]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ac895e51849bfc99ae25e054fd4c2eda-Abstract-Conference.html) [[code]](https://github.com/vita-epfl/Loc2)
@@ -135,3 +135,22 @@
 - Solving the Blind Perspective-n-Point Problem End-to-End with Robust Differentiable Geometric Optimization, ECCV 2020 [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470239.pdf)
 - Learning Bipartite Graph Matching for Robust Visual Localization, ISMAR 2020 [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9284705)
 - [BPnP] End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization, CVPR 2020 [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_End-to-End_Learnable_Geometric_Vision_by_Backpropagating_PnP_Optimization_CVPR_2020_paper.pdf)
+
+# Datasets and Evaluation
+
+#### Datasets
+
+- **YFCC100M** — Outdoor image-pair subsets for relative pose estimation. [[paper]](https://arxiv.org/abs/1503.01817) [[matches]](https://github.com/zjhthu/OANet#generate-training-and-testing-data)
+- **SUN3D** — Indoor RGB-D sequences for relative pose estimation. [[dataset]](https://sun3d.cs.princeton.edu/) [[matches]](https://github.com/zjhthu/OANet#generate-training-and-testing-data)
+- **MegaDepth** — Outdoor images with SfM models and depth maps. [[dataset]](https://www.cs.cornell.edu/projects/megadepth/)
+- **ScanNet** — Indoor RGB-D scans with camera poses. [[dataset]](https://github.com/ScanNet/ScanNet)
+- **HPatches** — Image sequences with homographies and viewpoint/illumination changes. [[dataset]](https://github.com/hpatches/hpatches-dataset)
+
+#### Evaluation Metrics
+
+- **Pose AUC@5°/10°/20°** — Normalized area under the pose-error recall curve; error is the maximum of rotation and translation-direction angular errors. [[code]](https://github.com/magicleap/SuperGluePretrainedNetwork/blob/master/models/utils.py)
+- **Pose mAP@5°/10°/20°** — Discrete threshold-averaged pose accuracy following the OANet protocol. [[code]](https://github.com/zjhthu/OANet/blob/master/core/test.py)
+- **Inlier precision / recall / F1** — Classification scores using the benchmark's epipolar-error threshold. [[code]](https://github.com/zjhthu/OANet/blob/master/core/loss.py)
+- **Homography accuracy** — Accuracy at a 3 px homography-error threshold on HPatches. [[protocol]](https://ojs.aaai.org/index.php/AAAI/article/download/25456/25228)
+
+Use the same data splits, initial matcher, inlier thresholds and RANSAC settings when comparing methods.
