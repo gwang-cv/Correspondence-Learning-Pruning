@@ -5,6 +5,7 @@
 #### 2026
 
 - [ISR-Net] Correspondence Pruning by Iterative Structural Rectification, NeurIPS 2026 [[pdf]](https://openreview.net/pdf?id=5J1rwV6KnM) [[paper]](https://neurips.cc/virtual/2026/poster/155477)
+- [BAG-Net] BAG-Net: Bidirectional Receptive-Field Graph Network for Two-View Correspondence Pruning, IJCAI 2026 [[pdf]](https://ijcai.org/proceedings/2026/0193.pdf) [[code (coming soon)]](https://github.com/LeyiWang13/BAG-Net)
 - [LLHA-Net] LLHA-Net: A hierarchical attention network for two-view correspondence learning, PR 2026 [[pdf]](https://arxiv.org/pdf/2512.24620) [[DOI]](https://doi.org/10.1016/j.patcog.2025.112896) [[repo]](https://github.com/shuyuanlin?tab=repositories)
 - [SC-Net] SC-Net: Robust Correspondence Learning via Spatial and Cross-Channel Context, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37632/41594) [[repo]](https://github.com/shuyuanlin/SCNet)
 - [MCD] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC, AAAI 2026 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/37954/41916) [[project]](https://comedy0913.github.io/projects/MCD.html) [[repo]](https://github.com/comedy0913/MCD)
